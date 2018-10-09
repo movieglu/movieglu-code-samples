@@ -1,0 +1,7 @@
+// Syntax:
+// curl "https://api-gate2.movieglu.com/filmsNowShowing/?n=1" -H "api-version: v200" -H "Authorization: YOUR AUTHORIZATION" -H "x-api-key: YOUR X-API-KEY" -H "device-datetime: YYYY-MM-DDTHH:MM:SS.000Z" -H "territory: YOUR TERRITORY" -H "client: YOUR USERNAME"
+
+// Example (these values are illustrative only - they won't work):
+curl "https://api-gate2.movieglu.com/filmsNowShowing/?n=1" -H "api-version: v200" -H "Authorization: Basic A1B2c3D4E5f6H7I8j911M12=" -H "x-api-key: IyrBUDT7CuTTc6LH85mI5aAoG8" -H "device-datetime: 2018-09-26T10:45:30.147Z" -H "territory: UK" -H "client: ABCD"
+
+
